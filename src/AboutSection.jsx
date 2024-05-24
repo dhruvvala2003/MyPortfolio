@@ -26,7 +26,7 @@ const AboutSection = () => {
     <div className='about' id='about'>
 
       <div className='about-img'>
-        <img src={img3} alt='About Image' />
+        <img src={img3} />
       </div>
 
       <div className='about-content'>

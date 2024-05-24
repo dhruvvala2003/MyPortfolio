@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
         <div className='footer-iconTop'>
-          <Link to="#home"><a><FaRegArrowAltCircleUp/></a></Link>
+          <Link to="#home"><FaRegArrowAltCircleUp/></Link>
         </div>
     </div>
   )

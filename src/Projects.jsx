@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './ProjectCss.css';
 import { FaSquareArrowUpRight } from "react-icons/fa6";
-import img3 from './Images/img4.jpg';
 import skillacademy from './Images/skillacademy2.png';
 import blog from './Images/pngwing.png';
 import todolist1 from './Images/todolist1.png';
@@ -49,7 +48,7 @@ const Projects = () => {
                     <h4>Blog Application</h4>
                     <p>Welcome to our Blogging Application, where you have full control over your content. Create, update, and delete your blogs with ease. Engage with other users by liking their posts and exploring a variety of blogs. With our intuitive pagination feature, conveniently navigate through articles, displaying five blogs per page. Start sharing your stories and discovering new ones today!</p>
                 
-                    <a href=''><FaSquareArrowUpRight /></a>
+                    <a href='www.google.com'><FaSquareArrowUpRight /></a>
                 </div>
             </div>
 

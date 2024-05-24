@@ -58,7 +58,7 @@ const Hero = () => {
 
                 </div>
 
-              <Link smooth to="#contact"> <a href='' className='btn'>Hire Me</a></Link> 
+              <Link smooth to="#contact" className='btn' > Hire Me</Link> 
            
             </div>
 
