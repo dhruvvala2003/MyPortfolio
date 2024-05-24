@@ -68,8 +68,9 @@ const Projects = () => {
                 <div className='portfolio-layer'>
                     <h4>TIC-TAC-TOE</h4>
                     <p>Experience the classic fun of Tic Tac Toe with our interactive game! Play against a friend or challenge the computer. Enjoy the convenience of restarting the game at any time for endless entertainment. Plus, stay updated with the winner announcement displayed conveniently at the bottom of the board. Start playing now and see if you can outsmart your opponent!</p>
-                
-                    <a href='https://drive.google.com/file/d/1qfYEmxO8MMQihzY5-7Db-v4E5XRpWhbn/view?usp=drive_link'><FaSquareArrowUpRight /></a>
+                   
+                    <a href=' https://tic-tac-toii.netlify.app'><FaSquareArrowUpRight /></a>
+                    {/* https://drive.google.com/file/d/1qfYEmxO8MMQihzY5-7Db-v4E5XRpWhbn/view?usp=drive_link */}
                 </div>
             </div>
 
