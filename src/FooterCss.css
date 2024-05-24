@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #111;
+}
+
+.footer-text
+{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    background: #16ff00;
+    border-radius: 0.8rem;
+    transition: 0.5s ease-in-out;
+    font-size: 2.5rem;
+    color: #111;
+
+}
+
+.footer-iconTop:hover{
+    box-shadow: 0 0 1rem #16ff00;
+}
+
+
+/* -------responsive design-------- */
+
+@media(max-width:991px)
+{
+    .service{
+        padding: 7rem;
+    }
+
+    .header{
+        padding: 2rem 3%;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+
+}

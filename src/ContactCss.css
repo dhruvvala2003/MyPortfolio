@@ -1,0 +1,99 @@
+.btn{
+    text-align: center;
+    width: 25%;
+    display:inline-block;
+    padding: 1rem 2.8rem;
+    background:#16ff00 ;
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 0 1.6rem #16ff00;
+}
+
+
+.contact h2{
+     margin-bottom: 3rem;
+
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+
+}
+
+.contact form .input-box input, 
+.contact form textarea{
+
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #befff7;
+    background-color:#111 ;
+    border-radius: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+
+.contact form .input-box input {
+width: 49%;
+
+
+}
+
+
+.contact form textarea{
+    resize: none;
+}
+
+/* ----------------responsive design-------- */
+
+@media(max-width:991px)
+{
+    .service{
+        padding: 7rem;
+    }
+
+    .header{
+        padding: 2rem 3%;
+    }
+
+    .contact{
+        min-height: auto;
+        padding: 3rem;
+    }
+
+    .contact .btn
+    {
+        
+        width: 40%;
+    }
+
+   
+}
+
+@media(max-width:430px)
+{
+    .contact .btn
+    {
+         width:70%;
+    }
+}
