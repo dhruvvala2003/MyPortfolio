@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import img3 from './Images/img3.jpg';
+import pic3 from './Images/img3.jpg';
 import "./AboutSectionCss.css";
 import { FaCode } from "react-icons/fa";
 import ScrollReveal from 'scrollreveal'
@@ -26,7 +26,7 @@ const AboutSection = () => {
     <div className='about' id='about'>
 
       <div className='about-img'>
-        <img src={img3} alt='About Image' />
+        <img src={pic3} alt='About Image' />
       </div>
 
       <div className='about-content'>

@@ -4,7 +4,7 @@ import "./HeroCss.css";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import img4 from './Images/img5.jpg';
+import pic4 from './Images/img5.jpg';
 import { HashLink as Link } from 'react-router-hash-link';
 import ScrollReveal from 'scrollreveal'
 import Typed from 'typed.js';
@@ -63,7 +63,7 @@ const Hero = () => {
             </div>
 
             <div className='hero-img'>
-                <img src={img4} alt='Profile Image'/>
+                <img src={pic4} alt='Profile Image'/>
             </div>
         </div>
     )
